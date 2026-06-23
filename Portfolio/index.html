@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marwa Ibrahim — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">M<span>.</span>Ibrahim</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#courses">Courses</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════ MOBILE MENU ═══════════════ -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <button class="close-btn" id="closeBtn" aria-label="Close menu">✕</button>
+    <nav class="mobile-nav">
+      <a href="#home" class="mob-link">Home</a>
+      <a href="#about" class="mob-link">About</a>
+      <a href="#education" class="mob-link">Education</a>
+      <a href="#courses" class="mob-link">Courses</a>
+      <a href="#experience" class="mob-link">Experience</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════ HOME ═══════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-bg-shape"></div>
+      <div class="hero-inner container">
+        <div class="hero-text" data-reveal>
+          <p class="hero-eyebrow">Business Management Graduate</p>
+          <h1 class="hero-name">Marwa<br/><em>Ibrahim</em></h1>
+          <p class="hero-tagline">Bridging people, ideas &amp; results — from the classroom to the boardroom.</p>
+          <div class="hero-cta-row">
+            <a href="#experience" class="btn btn-primary">View My Journey</a>
+            <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap" data-reveal-delay>
+          <div class="photo-ring"></div>
+          <img src="marwa-photo.jpg" alt="Marwa Ibrahim" class="hero-photo" />
+          <div class="photo-badge">
+            <span class="badge-icon">🎓</span>
+            <span>Excellent Grade</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-label">01 / About</div>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-grid">
+          <div class="about-bio" data-reveal>
+            <p>I'm <strong>Marwa Ibrahim</strong>, a Business Management graduate from Benha University (English Section, 2021–2025) with an <em>Excellent</em> academic record. My education gave me a rigorous grounding in strategy, operations, and organisational behaviour — but what truly shaped me was the real-world application of those principles.</p>
+            <p>Through my role at Mumzworld and active participation in the AIBE Entrepreneurship Student Activity at Ain Shams University, I've learned to translate theory into tangible outcomes: building rapport with diverse customer personas, navigating high-pressure sales targets, and collaborating within cross-functional teams.</p>
+            <p>I am driven by a relentless curiosity for how businesses grow, and I thrive in environments where communication and adaptability are the currency of success.</p>
+          </div>
+          <div class="skills-panel" data-reveal-delay>
+            <h3 class="skills-title">Core Strengths</h3>
+            <div class="skill-chips">
+              <span class="chip">Active Listening</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Teamwork</span>
+              <span class="chip">Adaptability</span>
+              <span class="chip">Presentation</span>
+              <span class="chip">Customer Relations</span>
+              <span class="chip">Sales Strategy</span>
+              <span class="chip">Problem Solving</span>
+            </div>
+            <div class="stat-row">
+              <div class="stat">
+                <span class="stat-num">10<sup>mo</sup></span>
+                <span class="stat-label">E-Commerce Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">2</span>
+                <span class="stat-label">Departments Mastered</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">A+</span>
+                <span class="stat-label">Academic Grade</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ EDUCATION ═══════════════ -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-label">02 / Education</div>
+        <h2 class="section-title">Academic Background</h2>
+        <div class="edu-card" data-reveal>
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <div class="edu-meta">2021 — 2025</div>
+            <h3 class="edu-degree">Bachelor of Business Management</h3>
+            <p class="edu-school">Benha University &mdash; English Section</p>
+            <p class="edu-desc">A four-year programme covering managerial economics, organisational behaviour, financial management, marketing, strategic planning, and entrepreneurship — all delivered through an English-medium curriculum that sharpened both my technical vocabulary and cross-cultural communication.</p>
+            <div class="edu-grade">
+              <span class="grade-pill">🏅 Graduated with Excellent Grades</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ COURSES ═══════════════ -->
+    <section class="section courses" id="courses">
+      <div class="container">
+        <div class="section-label">03 / Courses</div>
+        <h2 class="section-title">Continuous Learning</h2>
+        <div class="courses-grid">
+
+          <!-- FEATURED certificate -->
+          <div class="course-card course-featured" data-reveal>
+            <div class="course-ribbon">Certificate</div>
+            <div class="course-top">
+              <span class="course-icon">🚀</span>
+              <span class="course-year">2025</span>
+            </div>
+            <h3 class="course-name">Entrepreneurship Program</h3>
+            <p class="course-org">AIBE Student Activity — Ain Shams University</p>
+            <p class="course-desc">Awarded a formal Certificate of Achievement for outstanding dedication and remarkable contribution as an Entrepreneurship Participant. The program covered startup ideation, business model design, go-to-market strategy, and pitch presentation — all within a competitive, real-world environment sponsored by leading organisations including Paymob, Digital Power Media, and Gazels Group.</p>
+            <ul class="course-highlights">
+              <li>Developed &amp; pitched a full startup concept</li>
+              <li>Collaborated with cross-university teams</li>
+              <li>Received certificate signed by Program President &amp; Academic Director</li>
+            </ul>
+          </div>
+
+          <!-- Placeholder for future courses -->
+          <div class="course-card course-placeholder" data-reveal-delay>
+            <div class="course-top">
+              <span class="course-icon">📚</span>
+            </div>
+            <h3 class="course-name">Always Learning</h3>
+            <p class="course-desc">I am actively pursuing further professional development in sales management, digital marketing, and business strategy. More certifications coming soon.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-label">04 / Experience</div>
+        <h2 class="section-title">Professional Journey</h2>
+
+        <!-- MUMZWORLD BLOCK -->
+        <div class="exp-company-header" data-reveal>
+          <div class="exp-company-logo">🛒</div>
+          <div>
+            <h3 class="exp-company-name">Mumzworld</h3>
+            <p class="exp-company-sub">Leading Middle East e-commerce platform for mother, baby &amp; child products</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-connector"></div>
+            <div class="timeline-card">
+              <div class="tl-header">
+                <span class="tl-dept cs">Customer Service</span>
+                <span class="tl-duration">First 2 Months</span>
+              </div>
+              <h4 class="tl-role">Customer Service Representative</h4>
+              <p class="tl-desc">Joined the Customer Service department as my entry point into the world of e-commerce. This period was a masterclass in empathetic communication and rapid problem-solving at scale.</p>
+              <ul class="tl-bullets">
+                <li>Handled a high volume of inbound customer inquiries across chat and phone channels</li>
+                <li>Diagnosed and resolved order issues, delivery complaints, and product queries with first-contact resolution as the primary KPI</li>
+                <li>Mastered active listening techniques to de-escalate frustrated customers and turn experiences around</li>
+                <li>Gained deep familiarity with Mumzworld's product catalogue and backend systems</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot tl-dot-accent"></div>
+            <div class="timeline-card">
+              <div class="tl-header">
+                <span class="tl-dept sales">Sales</span>
+                <span class="tl-duration">Following 8 Months</span>
+              </div>
+              <h4 class="tl-role">Sales Representative</h4>
+              <p class="tl-desc">Transitioned into the Sales department, where I applied my customer-communication foundation to a results-driven environment. This 8-month chapter defined my commercial instincts.</p>
+              <ul class="tl-bullets">
+                <li>Proactively identified and understood the unique needs of diverse customer personas across the platform</li>
+                <li>Applied consultative selling techniques to match customers with the right products and increase basket size</li>
+                <li>Consistently worked toward and achieved monthly sales targets, developing resilience and focus under pressure</li>
+                <li>Honed persuasion, negotiation, and closing skills that are now core to my professional toolkit</li>
+                <li>Contributed to upselling initiatives that meaningfully improved average order value</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="exp-takeaway" data-reveal>
+          <div class="takeaway-icon">💡</div>
+          <p>My 10 months at Mumzworld gave me a 360° view of the e-commerce customer journey — from first complaint to closed sale. Understanding how to serve before selling has become the foundation of every professional interaction I have.</p>
+        </div>
+
+        <!-- VOLUNTEERING -->
+        <div class="vol-card" data-reveal>
+          <span class="vol-tag">Volunteer</span>
+          <div class="vol-body">
+            <h4 class="vol-org">Resala Charity Organisation</h4>
+            <span class="vol-year">Egypt — 2025</span>
+            <p class="vol-desc">Contributed time and energy to one of Egypt's largest and most impactful charitable organisations, reinforcing values of community service, empathy, and social responsibility.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-label">05 / Contact</div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-sub">I'm open to new opportunities, collaborations, and conversations. Reach me directly through any of the channels below — no forms, no friction.</p>
+        <div class="contact-cards">
+
+          <a href="https://linkedin.com/in/your-linkedin-url" target="_blank" rel="noopener" class="contact-card">
+            <div class="cc-icon linkedin-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="cc-body">
+              <span class="cc-label">LinkedIn</span>
+              <span class="cc-value">Connect professionally</span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+
+          <a href="mailto:marwaelsharqawi365@gmail.com" class="contact-card">
+            <div class="cc-icon email-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="cc-body">
+              <span class="cc-label">Email</span>
+              <span class="cc-value">marwaelsharqawi365@gmail.com</span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+
+          <a href="https://wa.me/201016117822" target="_blank" rel="noopener" class="contact-card">
+            <div class="cc-icon whatsapp-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="cc-body">
+              <span class="cc-label">WhatsApp</span>
+              <span class="cc-value">+20 101 611 7822</span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Marwa Ibrahim — Designed with purpose.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
